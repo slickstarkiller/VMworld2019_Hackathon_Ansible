@@ -1,11 +1,8 @@
-First commit
-Preston is here!
-Ariel was here!
-Andy was here
-Ivo was here!
-Doug was here!
-Joel was here
-Mark was here too!
-Chad was here!
-Henry was here too!
-Chris was here
+# Configure VMware vSphere using Ansible
+> VMworld 2019 Hackathon - Team 2
+
+## Usage
+
+## Reference
+Official Ansible reference:
+https://docs.ansible.com/ansible/latest/modules/vmware_host_ntp_module.html#vmware-host-ntp-module
