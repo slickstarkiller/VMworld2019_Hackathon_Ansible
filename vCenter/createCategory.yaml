@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Create a category
+      vmware_category:
+        hostname: "172.16.0.21"
+        username: "administrator@vsphere.local"
+        password: "VMware1!"
+        validate_certs: false
+        category_name: Sample_Cat_0001
+        category_description: Sample Description
+        category_cardinality: 'multiple'
+        state: present
