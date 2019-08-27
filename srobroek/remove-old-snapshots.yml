@@ -1,9 +1,4 @@
 
-# - name: Include variables for vSphere
-#   include_vars:
-#     file: vsphere-variables.yaml
-#     name: vsphere
-
 
 ---
 - name: Remove old templates from VMs
